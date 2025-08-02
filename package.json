@@ -2,9 +2,7 @@
   "name": "@powerman-asdf/prettierd",
   "version": "0.26.2",
   "description": "prettier, as a daemon",
-  "bin": {
-    "prettierd": "./bin/prettierd"
-  },
+  "bin": "./bin/prettierd",
   "scripts": {
     "prepare": "yarn build",
     "build": "tsc -b",
