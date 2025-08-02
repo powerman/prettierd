@@ -97,7 +97,7 @@ async function main(args: string[]): Promise<void> {
     return;
   }
 
-  const core_d = require("core_d");
+  const core_d = require("@powerman-asdf/core_d");
 
   if (coredCommands.includes(cmdOrFilename)) {
     core_d[cmdOrFilename]();

@@ -270,7 +270,7 @@ export async function stopAll(
   for (const file of coredFiles) {
     process.env.CORE_D_DOTFILE = file;
 
-    const core_d = require("core_d");
+    const core_d = require("@powerman-asdf/core_d");
     const stop = promisify(core_d.stop);
     await stop();
 

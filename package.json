@@ -1,6 +1,6 @@
 {
   "name": "@powerman-asdf/prettierd",
-  "version": "0.26.2",
+  "version": "0.26.3",
   "description": "prettier, as a daemon",
   "bin": "./bin/prettierd",
   "scripts": {
