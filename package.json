@@ -1,6 +1,6 @@
 {
-  "name": "@fsouza/prettierd",
-  "version": "0.26.1",
+  "name": "@powerman-asdf/prettierd",
+  "version": "0.26.2",
   "description": "prettier, as a daemon",
   "bin": {
     "prettierd": "./bin/prettierd"
@@ -15,21 +15,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fsouza/prettierd.git"
+    "url": "git+https://github.com/powerman/prettierd.git"
   },
   "author": "Francisco Souza",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fsouza/prettierd/issues"
+    "url": "https://github.com/powerman/prettierd/issues"
   },
-  "homepage": "https://github.com/fsouza/prettierd",
+  "homepage": "https://github.com/powerman/prettierd",
   "devDependencies": {
     "@types/node": "^24.0.15",
     "@types/prettier": "^3.0.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "core_d": "^6.1.0",
+    "@powerman-asdf/core_d": "^6.1.1",
     "prettier": "^3.6.2"
   },
   "files": [
