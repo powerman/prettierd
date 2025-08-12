@@ -1,6 +1,6 @@
 {
   "name": "@powerman-asdf/prettierd",
-  "version": "0.26.3",
+  "version": "0.26.4",
   "description": "prettier, as a daemon",
   "bin": "./bin/prettierd",
   "scripts": {
@@ -27,7 +27,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@powerman-asdf/core_d": "^6.1.1",
+    "core_d": "^6.1.1",
     "prettier": "^3.6.2"
   },
   "files": [

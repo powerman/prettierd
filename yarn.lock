@@ -67,24 +67,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@powerman-asdf/core_d@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "@powerman-asdf/core_d@npm:6.1.1"
-  dependencies:
-    supports-color: "npm:^8.1.0"
-  checksum: 10c0/feec83dfaa7045a200c1a33032402be1e3795940d07f10ab73e181dc24e5d24c15245b40e45d72cef4fcdec3186b1e9c1443a477cb6d8d8ff559697ac89e8c18
-  languageName: node
-  linkType: hard
-
 "@powerman-asdf/prettierd@workspace:.":
   version: 0.0.0-use.local
   resolution: "@powerman-asdf/prettierd@workspace:."
   dependencies:
     "@babel/parser": "npm:^7.28.0"
-    "@powerman-asdf/core_d": "npm:^6.1.1"
     "@types/node": "npm:^24.0.15"
     "@types/prettier": "npm:^3.0.0"
     "@typescript-eslint/typescript-estree": "npm:^8.37.0"
+    core_d: "npm:^6.1.1"
     prettier: "npm:^3.6.2"
     typescript: "npm:^5.8.3"
   dependenciesMeta:
@@ -196,6 +187,15 @@ __metadata:
   dependencies:
     fill-range: "npm:^7.1.1"
   checksum: 10c0/7c6dfd30c338d2997ba77500539227b9d1f85e388a5f43220865201e407e076783d0881f2d297b9f80951b4c957fcf0b51c1d2d24227631643c3f7c284b0aa04
+  languageName: node
+  linkType: hard
+
+"core_d@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "core_d@npm:6.1.1"
+  dependencies:
+    supports-color: "npm:^8.1.0"
+  checksum: 10c0/a0fcddf115115faa5f46b1da01c06baa0423253e60d42ef7720f4ea833a27fe41ec44a2f8e19c18b63453d3494b8d4c51401f6f6a929adbb1216f90f681534b2
   languageName: node
   linkType: hard
 
